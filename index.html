@@ -26,8 +26,8 @@
           >
           <ul class="navigation-link">
             <li><a class="header-list current" href="index.html">Studio</a></li>
-            <li><a class="header-list " href="portfolio.html">Portfolio</a></li>
-            <li><a class="header-list " href="">Contacts</a></li>
+            <li><a class="header-list" href="portfolio.html">Portfolio</a></li>
+            <li><a class="header-list" href="">Contacts</a></li>
           </ul>
         </nav>
         <ul class="contacts-link">
@@ -48,7 +48,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="advantages">
@@ -408,5 +410,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-button" type="button" data-modal-close></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
