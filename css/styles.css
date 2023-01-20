@@ -426,11 +426,18 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
+.modal-button:active  {
+  fill: var(--nav-background-color);
+  background: var(--enable-btn-color);
+  border: 0;
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
+
 /* PORTFOLIO */
 
 .main-section {
