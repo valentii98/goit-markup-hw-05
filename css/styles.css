@@ -510,7 +510,7 @@ body {
   margin-right: 24px;
   margin-bottom: 48px;
 }
-.project-card:hover .discription-text {
+.project-link:hover .discription-text {
   transform: translateY(0);
 }
 .project-card:nth-child(3n) {
